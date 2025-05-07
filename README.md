@@ -31,39 +31,7 @@ The application follows a modular monolith architecture with Domain-Driven Desig
 
 - **Authentication**: JWT-based authentication with login and registration
 - **Product Management**: View, create, edit, and delete products
-- **Shopping Cart**: Add products to cart and checkout
-- **Order Processing**: Complete order flow
-- **Admin Dashboard**: Manage products, users, and orders
-- **Responsive Design**: 100% responsive layout for mobile, tablet, and desktop
 
-## Project Structure
-
-```
-/
-├── backend/                # Java Spring Boot backend
-│   └── ecommerce/
-│       ├── src/
-│       │   ├── main/
-│       │   │   ├── java/
-│       │   │   └── resources/
-│       │   └── test/
-│       ├── docker/         # Docker configuration
-│       ├── docs/           # Documentation
-│       └── pom.xml         # Maven configuration
-│
-├── frontend/               # React frontend
-│   ├── public/             # Static assets
-│   ├── src/
-│   │   ├── assets/         # Images, fonts, etc.
-│   │   ├── components/     # UI components (atoms, molecules, organisms)
-│   │   ├── context/        # React context providers
-│   │   ├── pages/          # Application pages
-│   │   ├── services/       # API services
-│   │   └── types/          # TypeScript type definitions
-│   ├── package.json        # Dependencies and scripts
-│   └── tsconfig.json       # TypeScript configuration
-│
-└── docker-compose.yml      # Docker Compose configuration for the entire stack
 ```
 
 ## Setup and Usage
