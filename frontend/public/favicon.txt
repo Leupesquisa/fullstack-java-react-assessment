@@ -1,0 +1,3 @@
+# This is a placeholder for a favicon.ico file
+# In a real project, this would be a binary .ico file
+# For this exercise, this text file represents the favicon
