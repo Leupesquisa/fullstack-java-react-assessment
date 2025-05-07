@@ -1,0 +1,9 @@
+2025-05-05 20:44:02,552 INFO  [background-preinit] o.h.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.2.Final
+2025-05-05 20:44:03,111 INFO  [main] i.g.l.e.p.a.ProductControllerTest: Starting ProductControllerTest using Java 17.0.12 with PID 284976 (started by leumanuel in /home/leumanuel/Documents/woozydata/dev/ecommerce-monolith/backend/ecommerce)
+2025-05-05 20:44:03,113 DEBUG [main] i.g.l.e.p.a.ProductControllerTest: Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-05 20:44:03,118 INFO  [main] i.g.l.e.p.a.ProductControllerTest: No active profile set, falling back to 1 default profile: "default"
+2025-05-05 20:44:10,792 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer: Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-05-05 20:44:11,140 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext: Initializing Spring TestDispatcherServlet ''
+2025-05-05 20:44:11,141 INFO  [main] o.s.t.w.s.TestDispatcherServlet: Initializing Servlet ''
+2025-05-05 20:44:11,144 INFO  [main] o.s.t.w.s.TestDispatcherServlet: Completed initialization in 1 ms
+2025-05-05 20:44:11,201 INFO  [main] i.g.l.e.p.a.ProductControllerTest: Started ProductControllerTest in 11.806 seconds (process running for 28.773)

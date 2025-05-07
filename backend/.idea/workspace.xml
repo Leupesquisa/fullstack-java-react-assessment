@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="931ff96b-a3b7-4b74-b28f-a17d38e56386" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/.github/workflows/ci-cd.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/.junie/guidelines.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/docker/Dockerfile.backend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/docker/compose/dev/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/docs/api/openapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/docs/decisions/adr-001-monolith.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/project.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/auth/application/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/auth/application/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/auth/application/dto/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/auth/application/dto/UserLoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/auth/application/dto/UserRegistrationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/auth/application/dto/UserResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/auth/application/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/auth/config/AuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/auth/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/auth/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/auth/infrastructure/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/core/audit/Auditable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/core/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/core/config/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/core/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/core/exception/DuplicateResourceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/core/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/core/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/event/application/EventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/event/application/SpringEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/event/domain/DomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/event/domain/ProductStockChangedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/product/application/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/product/application/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/product/application/dto/ProductRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/product/application/dto/ProductResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/product/application/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/product/application/service/ProductStockManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/product/application/validator/ProductValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/product/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/product/domain/exception/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/java/io/github/leupesquisa/ecommerce/product/infrastructure/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/db/migration/V1__initial_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/test/java/io/github/leupesquisa/ecommerce/product/application/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce/src/test/java/io/github/leupesquisa/ecommerce/product/application/ProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/cypress/cypress.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/cypress/e2e/products.cy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/cypress/support/commands.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/cypress/support/e2e.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/atoms/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/atoms/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/molecules/ProductCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/organisms/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/organisms/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/components/organisms/ProductForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/context/AuthContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/LoginPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/ProductCreate.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/ProductDetail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/ProductEdit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/pages/Products.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/services/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/types/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/src/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../frontend/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2wm5hm9sxk8fiyjcvY6tJUjrGhX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/leumanuel/Documents/woozydata/dev/ecommerce-monolith/backend",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="931ff96b-a3b7-4b74-b28f-a17d38e56386" name="Changes" comment="" />
+      <created>1746634030596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746634030596</updated>
+      <workItem from="1746634033472" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

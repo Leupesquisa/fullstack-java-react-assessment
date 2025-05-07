@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="330a2066-d903-4534-8366-c057d19f5ee8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.junie/guidelines.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/Dockerfile.backend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/compose/dev/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/api/openapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/decisions/adr-001-monolith.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/auth/application/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/auth/application/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/auth/application/dto/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/auth/application/dto/UserLoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/auth/application/dto/UserRegistrationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/auth/application/dto/UserResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/auth/application/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/auth/config/AuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/auth/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/auth/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/auth/infrastructure/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/core/audit/Auditable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/core/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/core/config/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/core/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/core/exception/DuplicateResourceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/core/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/core/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/event/application/EventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/event/application/SpringEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/event/domain/DomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/event/domain/ProductStockChangedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/product/application/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/product/application/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/product/application/dto/ProductRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/product/application/dto/ProductResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/product/application/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/product/application/service/ProductStockManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/product/application/validator/ProductValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/product/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/product/domain/exception/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/product/infrastructure/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__initial_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/leupesquisa/ecommerce/product/application/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/leupesquisa/ecommerce/product/application/ProductServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2wdofuwRdwmeaeSQ4lV52HIsJKh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ProductControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductControllerTest.getAllProducts_ShouldReturnPageOfProducts.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.EcommerceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/leumanuel/Documents/woozydata/dev/ecommerce-monolith&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.github.leupesquisa.ecommerce.product.application" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EcommerceApplication">
+    <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.leupesquisa.ecommerce.product.application.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.leupesquisa.ecommerce.product.application" />
+      <option name="MAIN_CLASS_NAME" value="io.github.leupesquisa.ecommerce.product.application.ProductControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductControllerTest.getAllProducts_ShouldReturnPageOfProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.leupesquisa.ecommerce.product.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.leupesquisa.ecommerce.product.application" />
+      <option name="MAIN_CLASS_NAME" value="io.github.leupesquisa.ecommerce.product.application.ProductControllerTest" />
+      <option name="METHOD_NAME" value="getAllProducts_ShouldReturnPageOfProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.leupesquisa.ecommerce.product.application.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.github.leupesquisa.ecommerce.product.application" />
+      <option name="MAIN_CLASS_NAME" value="io.github.leupesquisa.ecommerce.product.application.ProductServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EcommerceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ecommerce" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.leupesquisa.ecommerce.EcommerceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductControllerTest.getAllProducts_ShouldReturnPageOfProducts" />
+        <item itemvalue="JUnit.ProductServiceTest" />
+        <item itemvalue="JUnit.ProductControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="330a2066-d903-4534-8366-c057d19f5ee8" name="Changes" comment="" />
+      <created>1746380919478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746380919478</updated>
+      <workItem from="1746380921084" duration="947000" />
+      <workItem from="1746384417935" duration="4559000" />
+      <workItem from="1746439525388" duration="664000" />
+      <workItem from="1746441078111" duration="11196000" />
+      <workItem from="1746555872938" duration="27713000" />
+      <workItem from="1746621645231" duration="159000" />
+      <workItem from="1746626502818" duration="2169000" />
+      <workItem from="1746631773814" duration="140000" />
+      <workItem from="1746634105405" duration="1003000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/github/leupesquisa/ecommerce/core/config/SecurityConfig.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
